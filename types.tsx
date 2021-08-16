@@ -6,17 +6,14 @@
 export type RootStackParamList = {
   Root: undefined;
   NotFound: undefined;
+  CoinDetails: undefined;
 };
 
 export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
+  Home: undefined;
+  Portfolio: undefined;
+  Market: undefined;
+  Ranking: undefined;
+  Profile: undefined;
 };
 
-export type TabOneParamList = {
-  TabOneScreen: undefined;
-};
-
-export type TabTwoParamList = {
-  TabTwoScreen: undefined;
-};
